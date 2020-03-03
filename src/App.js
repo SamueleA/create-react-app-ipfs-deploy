@@ -12,7 +12,7 @@ function App() {
         <span className="Big-plus">+</span>
         <img src={reactLogo} className="React-logo" alt="react-logo" />
         <p>
-          React App deployed on IPFS through terminal
+          React App deployed on IPFS through Terminal
         </p>
         <a
           className="App-link"
