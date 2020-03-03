@@ -1,22 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import terminalLogo from './terminal-logo.png';
+import reactLogo from './react-logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={terminalLogo} className="Terminal-logo" alt="terminal-logo" />
+        <span className="Big-plus">+</span>
+        <img src={reactLogo} className="React-logo" alt="react-logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          React App deployed on IPFS through terminal
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://docs.terminal.co"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn More About Terminal
         </a>
       </header>
     </div>

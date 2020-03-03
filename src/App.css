@@ -2,15 +2,18 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.React-logo {
+  max-width: 200px;
+  animation: React-logo-spin 6s linear infinite;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Terminal-logo {
+  max-width: 400px;
+}
+
+.Big-plus {
+  font-size: calc(50px + 2vmin);
 }
 
 .App-header {
@@ -28,7 +31,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes React-logo-spin {
   from {
     transform: rotate(0deg);
   }
