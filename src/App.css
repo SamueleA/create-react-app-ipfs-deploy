@@ -15,8 +15,7 @@
   font-size: calc(50px + 2vmin);
 }
 
-.App-header {
-  background-color: #282c34;
+.App-Container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
