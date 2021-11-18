@@ -31,3 +31,5 @@ typechain
 #Hardhat files
 cache
 artifacts
+
+secrets.json 

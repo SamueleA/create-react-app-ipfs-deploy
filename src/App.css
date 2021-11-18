@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .React-logo {
@@ -15,6 +16,16 @@
   font-size: calc(50px + 2vmin);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+input {
+  color: white;
+}
+
 .App-Container {
   min-height: 100vh;
   display: flex;
@@ -28,13 +39,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes React-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

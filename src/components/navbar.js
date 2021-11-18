@@ -22,6 +22,7 @@ const fetcher = (library) => (...args) => {
 export const Balance = (props) => {
 
     const { account, library } = props;
+
     const { data: balance } = useSWR(['getBalance', account, 'latest'], {
       fetcher: fetcher(library.eth),
     })
@@ -59,7 +60,7 @@ export default class NavBar extends React.Component {
 
     render() {
         return (
-            <Navbar collapseOnSelect variant="dark" bg="transparent" className="component-navbar" sticky="top">
+            <Navbar collapseOnSelect variant="dark" bg="transparent" className="component-navbar" fixed="top">
             <Container>
                 <Navbar.Brand href="#home">joaxap.eth</Navbar.Brand>
                 <Navbar.Toggle />

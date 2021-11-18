@@ -21,7 +21,6 @@ function withLoading(WrappedComponent) {
 
     async componentDidMount() {
       try {
-        // await auth0Client.loadSession();
         setTimeout(() => {
           this.setState({
             loading: false,
