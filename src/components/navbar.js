@@ -1,8 +1,9 @@
 import React from "react";
 import useSWR from "swr";
+import Social from "./social"
 import { Navbar, Container, ButtonGroup, Button } from 'react-bootstrap'
 import { useWeb3React } from '@web3-react/core'
-import { injected } from "../components/connectors"
+import { injected } from "./connectors"
 
 import './navbar.css'
 
@@ -62,11 +63,11 @@ export default class NavBar extends React.Component {
         return (
             <Navbar collapseOnSelect variant="dark" bg="transparent" className="component-navbar" fixed="top">
             <Container>
-                <Navbar.Brand href="#home">joaxap.eth</Navbar.Brand>
+                <Navbar.Brand href="#home" className="small">joaxap.eth</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text>
-                    <this.ConnectWallet />
+                    <Social />
                 </Navbar.Text>
                 </Navbar.Collapse>
             </Container>

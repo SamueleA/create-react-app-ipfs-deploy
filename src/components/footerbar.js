@@ -9,7 +9,7 @@ const FooterBar = () => {
             <Container fluid>
                 <Row>
                     <Col className="text-center ipfs-logo p-3">
-                        <img src="ipfs-icon.png" style={{ opacity: 0.4}} />
+                        <img alt="ipfs-logo" src="ipfs-icon.png" style={{ opacity: 0.4}} />
                         <span className="small px-2">
                             This page is hosted on IPFS
                         </span>
