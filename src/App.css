@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+body{
+  background-color: blanchedalmond
+}
 .React-logo {
   max-width: 200px;
   animation: React-logo-spin 6s linear infinite;
